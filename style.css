@@ -1,0 +1,292 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+    padding:0;
+    margin:0;
+
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(BV-Acharya-51.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#title {
+    text-align: center;
+    width:100%;
+    margin-top:3cm;
+    line-height:1cm;
+    color:white;
+    font-weight: bold;
+    font-size:50px;
+}
+#description{
+    text-align: center;
+    width:100%;
+    color:white;
+    line-height:4cm;
+    font-size: 20px;
+    font-style: oblique;
+    border-bottom:1px solid white;
+}
+#doc{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    color:black;
+    border-radius: 800px;
+    margin-left:41%;
+    width:800px;
+
+}
+#doc:hover{
+    color:white;
+    background-color:black;
+}
+/*survey division*/
+
+#survey-form{
+    width: 50%;
+    margin-left:35%;
+    color:white;
+    border-width:800px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif !important;
+    border-bottom:1 px solid azure;
+}
+#name{
+    width:250px;
+    height:50px;
+    background:transparent;
+    border:none;
+    font-size: 16px;
+    align:center;
+    color:white;
+    margin-left:50px;
+    border-bottom:1px solid white;
+    line-height:10cm;
+}
+input:required:invalid, input:focus:invalid {
+    /* insert your own styles for invalid form input */
+    -moz-box-shadow: none;
+  }
+#email{
+    width:200px;
+    height:50px;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+    font-size: 16px;
+    align:center;
+    color:white;
+    margin-left:50px;
+    line-height:10cm;
+}
+#number{
+    width:170px;
+    height:50px;
+    background:transparent;
+    border:none;
+    font-size: 16px;
+    color:white;
+    margin-left:50px;
+    border-bottom:1px solid white;
+    line-height:10cm;
+}
+#dropdown{
+    width:100px;
+    height:50px;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+    font-size: 16px;
+    color:white;
+    margin-left:50px;
+    line-height:10cm;
+
+}
+#no{
+    width:300px;
+    height:50px;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+    font-size: 16px;
+    color:white;
+    margin-left:50px;
+    line-height:10cm;
+}
+#no-h{
+    font-size:25px;
+}
+#radio{
+    margin-left:3%;
+    font-size: 25px;
+}
+#check{
+    margin-left:3%;
+    font-size: 25px;
+}
+#text-area{
+    width:300px;
+    height:80px;
+    word-wrap:break-word;
+    background:transparent;
+    font-size: 20px;
+    color:white;
+    margin-left:5%;
+
+}
+#submit{
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;    
+    text-shadow:none;
+    cursor: pointer;
+    margin-left:17%;
+
+}
+#submit:hover{
+    background:rgba(125, 95, 255,1.0);
+    animation-duration: 3s;
+}
+@media only screen and (max-width: 600px) {
+
+    #title {
+        text-align: center;
+        width:100%;
+        margin-top:3cm;
+        line-height:1cm;
+        color:white;
+        font-weight: bold;
+        font-size:30px;
+    }
+    #description{
+        text-align: center;
+        width:100%;
+        color:white;
+        line-height:4cm;
+        font-size: 16px;
+        font-style: oblique;
+        border-bottom:1px solid white;
+    }
+    #doc{
+        border-radius: 8px;
+    }
+    /*survey*/
+    #survey-form{
+        width: 90%;
+        margin-left:10%;
+        color:white;
+        border-width:800px;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif !important;
+    }
+    #name{
+        width:250px;
+        height:50px;
+        background:transparent;
+        border:none;
+        font-size: 16px;
+        align:center;
+        color:white;
+        margin-left:50px;
+        border-bottom:1px solid white;
+        line-height:10cm;
+    }
+    input:required:invalid, input:focus:invalid {
+        /* insert your own styles for invalid form input */
+        -moz-box-shadow: none;
+      }
+    #email{
+        width:200px;
+        height:50px;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+        font-size: 16px;
+        align:center;
+        color:white;
+        margin-left:50px;
+        line-height:10cm;
+    }
+    #number{
+        width:170px;
+        height:50px;
+        background:transparent;
+        border:none;
+        font-size: 16px;
+        color:white;
+        margin-left:50px;
+        border-bottom:1px solid white;
+        line-height:10cm;
+    }
+    #dropdown{
+        width:100px;
+        height:50px;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+        font-size: 16px;
+        color:white;
+        margin-left:50px;
+        line-height:10cm;
+    
+    }
+    #no{
+        width:300px;
+        height:50px;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+        font-size: 16px;
+        color:white;
+        margin-left:50px;
+        line-height:10cm;
+    }
+    #no-h{
+        font-size:25px;
+    }
+    #radio{
+        margin-left:3%;
+        font-size: 25px;
+    }
+    #check{
+        margin-left:3%;
+        font-size: 25px;
+    }
+    #text-area{
+        width:200px;
+        height:40px;
+        word-wrap:break-word;
+        background:transparent;
+        font-size: 20px;
+        color:white;
+        margin-left:10%;
+    
+    
+    }
+    #submit{
+        background: #0066A2;
+        color: white;
+        border-style: outset;
+        border-color: #0066A2;
+        height: 50px;
+        width: 100px;
+        font: bold 15px arial, sans-serif;    
+        text-shadow:none;
+        cursor: pointer;
+        margin-left:30%;
+    
+    }
+    #submit:hover{
+        background:rgba(125, 95, 255,1.0);
+        animation-duration: 3s;
+    }
+}

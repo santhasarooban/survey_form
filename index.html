@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+        <h1 id=title>Elders Helpline Survey form</h1>
+        <p id="description">This will helpful to all senior citizens...!</p>
+        <a href="https://drive.google.com/file/d/1SiQSoV3o_lm2vdihCsQVPucTJ0oOvbDE/view?usp=sharing" id="doc" class="mr-auto">Click here to read the full Documentation</a>
+        <form id="survey-form" action="https://formspree.io/f/mwkwjayv" method="POST"><br><br>
+       <label for="name-label">1.&emsp;Name</label>
+       <input type="text" id="name" placeholder="Your Name"  autofocus="autofocus" name="name" required><br><br>
+
+       <label for="email-label">2.&emsp;Email</label> 
+       <input type="email" id="email" placeholder="Your Email" name="email" required ><br><br>
+
+       <label for="number-label">3.&emsp;Mobile</label> 
+       <input type="text" id="number" placeholder="Your Mobile Number" name="number" class="user-input" pattern="[0-9]{10}" /><br><br>
+
+       <label for="understand">4.&emsp;Have you understood our intension?</label> 
+       <select id="dropdown" name="understood" >
+           <option value="yes">Yes</option>
+           <option value="no">No</option>
+       </select><br><br>
+
+      <label id="doubt" for="doubt-label">&emsp;If No fill your doubt here..</label> 
+       <input type="text" id="no" placeholder="type here" name="no" ><br><br>
+
+
+    <p>5.&emsp;Are you agree with that an IVRS can help senior citizens?</p><br>
+        <input type="radio" id="radio" name="helpful" value="strongly agree" >&ensp;
+         <label id="radio">Strongly agree</label> <br>
+         <input type="radio" id="radio" name="helpful" value="agree" >&ensp;
+         <label id="radio"> Agree</label> <br>
+         <input type="radio" id="radio" name="helpful" value="Dis-agree" >&ensp;
+         <label id="radio">Dis-agree</label> <br><br>
+    
+    <p>6.&emsp;I will Suggest this idea to my ...</p>   <br>
+    <input type="checkbox" id="check" name="suggest to" value="friends" >&ensp;
+         <label id="check">Friends</label> <br>
+         <input type="checkbox" id="check" name="suggest" value="parents" >&ensp;
+         <label id="check">Parents</label> <br>
+         <input type="checkbox" id="check" name="suggest to" value="grandparents" >&ensp;
+         <label id="check">Grand Parents</label> <br>
+         <input type="checkbox" id="check" name="suggest to" value="neighbors" >&ensp;
+         <label id="check">Neighbors</label> <br><br>
+
+         <p>7.&emsp;Comment your Opinion..</p><br>
+         <textarea type="text" id="text-area" placeholder="Your Feedback" required></textarea><br><br>
+
+         <input id="submit" type="submit"><br><br><br>
+   </form>
+</body>
+</html>
